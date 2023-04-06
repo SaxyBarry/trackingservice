@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity
+@Table(schema = "orders")
 public class Orders {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

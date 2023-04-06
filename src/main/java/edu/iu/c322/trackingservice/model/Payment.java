@@ -6,6 +6,7 @@ import jakarta.validation.Valid;
 import java.util.Objects;
 
 @Entity
+@Table(schema = "orders")
 public class Payment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

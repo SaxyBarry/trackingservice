@@ -6,6 +6,7 @@ import jakarta.validation.constraints.NotEmpty;
 import java.util.Objects;
 
 @Entity
+@Table(schema = "orders")
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
